@@ -34,7 +34,7 @@ void loop() {
     Serial.print(Q);
 
     if(Q == "open"){
-      Serial.print("its work");
+      Serial.print("it is working");
       myservo.write(openingPos);
       delay(1000);
       myservo.write(normalPos);
